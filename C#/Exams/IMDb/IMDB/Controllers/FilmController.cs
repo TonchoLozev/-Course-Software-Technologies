@@ -29,7 +29,6 @@ namespace IMDB.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(Film film)
         {
-            //TODO: Implement me ...
             if (ModelState.IsValid)
             {
                 using (var database = new IMDBDbContext())
@@ -63,7 +62,6 @@ namespace IMDB.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult EditConfirm(int? id, Film filmModel)
         {
-            //TODO: Implement me ...
             var database = new IMDBDbContext();
             var filmgFromDb = database.Films.Find(id);
 
