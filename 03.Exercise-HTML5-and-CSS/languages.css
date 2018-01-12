@@ -1,0 +1,14 @@
+body{
+    background-color: #EEEEEE;
+    line-height: 1.5em;
+    font-size: 24pt;
+}
+span{
+    border: 1px solid #AAAAAA;
+    border-radius: 10px;
+    background-color: #CCCCCC;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
