@@ -6,7 +6,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 public class FilmBindingModel {
-	//TODO: Implement me ...
 
     private String name;
 
