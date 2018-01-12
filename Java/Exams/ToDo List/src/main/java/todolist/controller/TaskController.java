@@ -23,7 +23,6 @@ public class TaskController {
 
     @GetMapping("/")
     public String index(Model model) {
-        //TODO:Implement me...
 
         model.addAttribute("tasks", null);
         model.addAttribute("view", "task/index");
@@ -33,28 +32,24 @@ public class TaskController {
 
     @GetMapping("/create")
     public String create(Model model) {
-        //TODO:Implement me...
 
         return null;
     }
 
     @PostMapping("/create")
     public String createProcess(Model model, TaskBindingModel taskBindingModel) {
-        //TODO:Implement me...
 
         return null;
     }
 
     @GetMapping("/delete/{id}")
     public String delete(Model model, @PathVariable int id) {
-        //TODO:Implement me...
 
         return null;
     }
 
     @PostMapping("/delete/{id}")
     public String deleteProcess(Model model, @PathVariable int id) {
-        //TODO:Implement me...
 
         return null;
     }
