@@ -14,7 +14,6 @@ namespace AnimeList.Controllers
         [Route("")]
         public ActionResult Index()
         {
-            //TODO: Implement me ...
             var animes = database.Animes.ToList();
             return View(animes);
         }
@@ -23,7 +22,6 @@ namespace AnimeList.Controllers
         [Route("create")]
         public ActionResult Create()
         {
-            //TODO: Implement me ...
             return View(new Anime());
         }
 
@@ -32,7 +30,6 @@ namespace AnimeList.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(Anime anime)
         {
-            //TODO: Implement me ...
             if (this.ModelState.IsValid)
             {
                 database.Animes.Add(anime);
@@ -47,7 +44,6 @@ namespace AnimeList.Controllers
         [Route("delete/{id}")]
         public ActionResult Delete(int? id)
         {
-            //TODO: Implement me ...
             var anime = database.Animes.Find(id);
             if (anime == null)
             {
@@ -63,7 +59,6 @@ namespace AnimeList.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirm(int? id, Anime animeModel)
         {
-            //TODO: Implement me ...
             var animeFromDb = database.Animes.Find(id);
             if (animeFromDb == null)
             {
