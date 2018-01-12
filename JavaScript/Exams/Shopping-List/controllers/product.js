@@ -2,7 +2,6 @@ const Product = require('../models/Product');
 
 module.exports = {
 	index: (req, res) => {
-        //TODO: Implement me ...
         Product.find().then(products => {
             return res.render('product/index', {'entries': products});
         }).catch(err => {
@@ -10,11 +9,9 @@ module.exports = {
         });
     	},
 	createGet: (req, res) => {
-        //TODO: Implement me ...
         res.render('product/create');
 	},
 	createPost: (req, res) => {
-	//TODO: Implement me ...
         let product = req.body;
         Product.create(product).then(product => {
             res.redirect("/");
@@ -24,7 +21,6 @@ module.exports = {
         });
 	},
 	editGet: (req, res) => {
-        //TODO: Implement me ...
         let productId = req.params.id;
         Product.findById(productId).then(product => {
             if (product) {
@@ -36,7 +32,6 @@ module.exports = {
         }).catch(err => res.redirect('/'));
 	},
 	editPost: (req, res) => {
-        //TODO: Implement me ...
         let productId = req.params.id;
         let product = req.body;
 
