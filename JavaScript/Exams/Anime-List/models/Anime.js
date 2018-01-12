@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 let animeSchema = mongoose.Schema({
-    //TODO: Implement me ...
 
     rating: {type: 'number', required: 'true'},
     name: {type: 'string', required: 'true'},
