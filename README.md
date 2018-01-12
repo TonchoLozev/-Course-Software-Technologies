@@ -1,6 +1,4 @@
- *<p align="center"> Software Technologies - October 2017<p>
 <a href="https://softuni.bg/trainings/1714/software-technologies-october-2017">  ![SoftUni logo][logo] <a/>
-
 [logo]: http://innovationstarterbox.bg/wp-content/uploads/2016/05/Softuni_logo_trasparent.png "Logo Title Text 2"
 
 ---
@@ -9,25 +7,19 @@ The **"Software Technologies"** course provides initial knowledge of the most us
 ## Exercises.
 1. HTML5 and CSS: Basic Tags, Basic Styling, Forms, Simple Sites - Lab
 2. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/01.Exercise-HTML"> HTML5 and CSS - Exercises </a> 
-2. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/02.Exercise-CSS"> HTML5 and CSS - Exercises </a>
-2. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/03.Exercise-HTML5-and-CSS"> HTML5 and CSS - Exercises </a>  
-3. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/04.SoftUniBlog(HTML%20and%20CSS)"> HTML5 and CSS - Blog Design </a> 
-
-5. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/JavaScript/Labs%20and%20Exercises/01.Lab-JS-Syntax"> JavaScript: Syntax and Basic Web </a>
-6. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/JavaScript/Labs%20and%20Exercises/02.Exercise-JS-Syntax"> JavaScript: Syntax and Basic Web - Exercises </a>
-10. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/JavaScript/Labs%20and%20Exercises/03.JS-Calculator"> JavaScript: Calculator Basic Functionality - Exercise </a>
-11. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/JavaScript/Labs%20and%20Exercises/04.JS-Blog"> JavaScript: Blog Basic Functionality - Exercises </a>
-
-17. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/Java/Labs%20and%20Exercises/01.Lab-Java-Syntax/src/com"> Java: Basic Syntax </a>
-18. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/Java/Labs%20and%20Exercises/02.Exercise-Java-Syntax/src"> Java: Basic Syntax - Exercises  </a>
-21. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/Java/Labs%20and%20Exercises/03.Java-Calculator"> Java: Calculator Basic Functionality </a>
-22. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/Java/Labs%20and%20Exercises/04.Java-Blog"> Java: Blog Basic Functionality - Exercises </a>
-
-23. <a href="https://github.com/melikpehlivanov/Software-Technologies---October-2017/tree/master/C%23%20-%20Calculator"> C#: ASP.NET MVC Overview - Lab </a>
-24. <a href="https://github.com/melikpehlivanov/Software-Technologies---October-2017/tree/master/C%23%20-%20Calculator"> C#: ASP.NET MVC Overview - Exercises </a>
-25. <a href="https://github.com/melikpehlivanov/Software-Technologies---October-2017/tree/master/C%23%20Blog"> C#: Blog Basic Functionality - Lab </a>
-26. <a href="https://github.com/melikpehlivanov/Software-Technologies---October-2017/tree/master/C%23%20Blog"> C#: Blog Basic Functionality - Exercises </a>
-27. <a href="https://github.com/melikpehlivanov/Software-Technologies---October-2017/tree/master/Exam%20Preparation%20(Exam%20-%202%20September)"> Exam Preparation I </a>
-28. <a href="https://github.com/melikpehlivanov/Software-Technologies---October-2017/tree/master/Exam%20Preparation%20(RetakeExam%20-%205%20September)"> Exam Preparation II </a>
-29. <a href="https://github.com/melikpehlivanov/Software-Technologies---October-2017/tree/master/ExamPrep%20III%20-%20Kanban%20Board"> Exam Preparation III </a>
-30. <a href="https://github.com/melikpehlivanov/Software-Technologies---October-2017/tree/master/Practical%20Exam%2021%20December%202017"> Practical Exam </a>
+3. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/02.Exercise-CSS"> HTML5 and CSS - Exercises </a>
+4. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/03.Exercise-HTML5-and-CSS"> HTML5 and CSS - Exercises </a>  
+5. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/04.SoftUniBlog(HTML%20and%20CSS)"> HTML5 and CSS - Blog Design </a> 
+6. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/JavaScript/Labs%20and%20Exercises/01.Lab-JS-Syntax"> JavaScript: Syntax and Basic Web </a>
+7. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/JavaScript/Labs%20and%20Exercises/02.Exercise-JS-Syntax"> JavaScript: Syntax and Basic Web - Exercises </a>
+8. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/JavaScript/Labs%20and%20Exercises/03.JS-Calculator"> JavaScript: Calculator Basic Functionality - Exercise </a>
+9. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/JavaScript/Labs%20and%20Exercises/04.JS-Blog"> JavaScript: Blog Basic Functionality - Exercises </a>
+10. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/Java/Labs%20and%20Exercises/01.Lab-Java-Syntax/src/com"> Java: Basic Syntax </a>
+11. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/Java/Labs%20and%20Exercises/02.Exercise-Java-Syntax/src"> Java: Basic Syntax - Exercises  </a>
+12. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/Java/Labs%20and%20Exercises/03.Java-Calculator"> Java: Calculator Basic Functionality </a>
+13. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/Java/Labs%20and%20Exercises/04.Java-Blog"> Java: Blog Basic Functionality - Exercises </a>
+14. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/C%23/Labs%20and%20Exercises/01.C%23-Calculator"> C#: Calculator Basic Functionality - Lab </a>
+15. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/C%23/Labs%20and%20Exercises/02.C%23-Blog"> C#: Blog Basic Functionality - Exercises </a>
+16. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/JavaScript/Exams"> JavaScript - Practical Exams </a>
+17. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/Java/Exams">  Java - Practical Exams </a>
+18. <a href="https://github.com/TonchoLozev/Course-Software-Technologies/tree/master/C%23/Exams">  CSharp - Practical Exams </a>
