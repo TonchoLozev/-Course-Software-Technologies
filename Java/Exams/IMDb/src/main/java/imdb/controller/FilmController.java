@@ -20,13 +20,11 @@ public class FilmController {
 
     @Autowired
     public FilmController(FilmRepository filmRepository) {
-        //TODO: Implement me ...
         this.filmRepository = filmRepository;
     }
 
     @GetMapping("/")
     public String index(Model model) {
-        //TODO: Implement me ...
         List<Film> films = filmRepository.findAll();
         model.addAttribute("films", films);
         model.addAttribute("view", "film/index");
@@ -36,7 +34,6 @@ public class FilmController {
 
     @GetMapping("/create")
     public String create(Model model) {
-        //TODO: Implement me ...
         model.addAttribute("film", new FilmBindingModel());
         model.addAttribute("view", "film/create");
 
@@ -45,7 +42,6 @@ public class FilmController {
 
     @PostMapping("/create")
     public String createProcess(Model model, FilmBindingModel filmBindingModel) {
-        //TODO: Implement me ...
         if (filmBindingModel.getDirector().equals("") || filmBindingModel.getGenre().equals("") ||
                 filmBindingModel.getName().equals("") || filmBindingModel.getYear() == null) {
 
@@ -66,7 +62,6 @@ public class FilmController {
 
     @GetMapping("/edit/{id}")
     public String edit(Model model, @PathVariable int id) {
-        //TODO: Implement me ...
         Film film = filmRepository.findOne(id);
         if (film != null) {
             model.addAttribute("film", film);
@@ -78,7 +73,6 @@ public class FilmController {
 
     @PostMapping("/edit/{id}")
     public String editProcess(Model model, @PathVariable int id, FilmBindingModel filmBindingModel) {
-        //TODO: Implement me ...
         if (filmBindingModel.getDirector().equals("") || filmBindingModel.getGenre().equals("") ||
                 filmBindingModel.getName().equals("") || filmBindingModel.getYear() == null) {
 
@@ -111,7 +105,6 @@ public class FilmController {
 
     @GetMapping("/delete/{id}")
     public String delete(Model model, @PathVariable int id) {
-        //TODO: Implement me ...
         Film film = filmRepository.findOne(id);
         if (film != null) {
             model.addAttribute("film", film);
@@ -123,7 +116,6 @@ public class FilmController {
 
     @PostMapping("/delete/{id}")
     public String deleteProcess(@PathVariable int id) {
-        //TODO: Implement me ...
         try {
             filmRepository.delete(id);
         } catch (Exception ex) {
