@@ -5,7 +5,6 @@ import javax.persistence.*;
 @Entity
 @Table(name = "films")
 public class Film {
-	//TODO: Implement me ...
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
