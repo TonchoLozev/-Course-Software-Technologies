@@ -14,7 +14,6 @@ namespace ShoppingList.Controllers
         [Route("")]
         public ActionResult Index()
         {
-            //TODO: Implement me ...
             var products = database.Products.ToList();
             return View(products);
         }
@@ -23,7 +22,6 @@ namespace ShoppingList.Controllers
         [Route("create")]
         public ActionResult Create()
         {
-            //TODO: Implement me ...
             return View(new Product());
         }
 
@@ -32,7 +30,6 @@ namespace ShoppingList.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(Product product)
         {
-            //TODO: Implement me ...
 
             if (this.ModelState.IsValid)
             {
@@ -48,7 +45,6 @@ namespace ShoppingList.Controllers
         [Route("edit/{id}")]
         public ActionResult Edit(int? id)
         {
-            //TODO: Implement me ...
 
             var product = database.Products.Find(id);
             if (product == null)
@@ -64,7 +60,6 @@ namespace ShoppingList.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult EditConfirm(int? id, Product productModel)
         {
-            //TODO: Implement me ...
 
             var productFromDb = database.Products.Find(id);
             if (productFromDb == null)
