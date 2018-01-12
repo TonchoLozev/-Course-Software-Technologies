@@ -6,7 +6,6 @@ import javax.persistence.*;
 @Table(name = "tasks")
 public class Task {
 
-	// TODO: Implement me...
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
