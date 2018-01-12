@@ -5,7 +5,6 @@ namespace AnimeList.Models
 {
     public class Anime
     {
-        //TODO: Implement me ...
 
         [Key]
         public int Id { get; set; }
