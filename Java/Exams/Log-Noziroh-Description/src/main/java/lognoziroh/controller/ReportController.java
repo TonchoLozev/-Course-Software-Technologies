@@ -24,7 +24,6 @@ public class ReportController {
 
 	@GetMapping("/")
 	public String index(Model model) {
-		//TODO: Implement me ...
 
 		List<Report> reports =  this.reportRepository.findAll();
 		model.addAttribute("reports", reports);
@@ -34,7 +33,6 @@ public class ReportController {
 
 	@GetMapping("/details/{id}")
 	public String details(Model model, @PathVariable int id) {
-		//TODO: Implement me ...
 
 		Report report = this.reportRepository.findOne(id);
 		if (report == null) {
@@ -49,7 +47,6 @@ public class ReportController {
 
 	@GetMapping("/create")
 	public String create(Model model) {
-		//TODO: Implement me ...
 
 		model.addAttribute("report", new ReportBindingModel());
 		model.addAttribute("view", "report/create");
@@ -58,7 +55,6 @@ public class ReportController {
 
 	@PostMapping("/create")
 	public String createProcess(Model model, ReportBindingModel reportBindingModel, BindingResult bindingResult) {
-		//TODO: Implement me ...
 
 		if (bindingResult.hasErrors()) {
 			model.addAttribute("report", reportBindingModel);
@@ -77,7 +73,6 @@ public class ReportController {
 
 	@GetMapping("/delete/{id}")
 	public String delete(Model model, @PathVariable int id) {
-		//TODO: Implement me ...
 
 		Report report = this.reportRepository.findOne(id);
 		if (report == null) {
@@ -91,7 +86,6 @@ public class ReportController {
 
 	@PostMapping("/delete/{id}")
 	public String deleteProcess(@PathVariable int id, ReportBindingModel reportBindingModel) {
-		//TODO: Implement me ...
 
 		Report film = this.reportRepository.findOne(id);
 		if (film == null) {
