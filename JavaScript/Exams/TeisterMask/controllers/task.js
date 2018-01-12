@@ -2,7 +2,6 @@ const Task = require('../models/Task');
 
 module.exports = {
 	index: (req, res) => {
-		// TODO: Implement me...
 
         Task.find().then(tasks => {
             let openTasks = [];
@@ -29,14 +28,12 @@ module.exports = {
         });
 	},
 	createGet: (req, res) => {
-		// TODO: Implement me...
 
         res.render('task/create');
 
 	},
-	createPost: (req, res) => {
-		// TODO: Implement me...
-
+	createPost: (req, res) => {	
+		
         let task = req.body;
         Task.create(task).then(task => {
             res.redirect("/");
@@ -47,7 +44,6 @@ module.exports = {
 
 	},
 	editGet: (req, res) => {
-		// TODO: Implement me...
 
         let taskId= req.params.id;
         Task.findById(taskId).then(task => {
@@ -60,7 +56,6 @@ module.exports = {
         }).catch(err => res.redirect('/'));
 	},
 	editPost: (req, res) => {
-		// TODO: Implement me...
 
         let taskId = req.params.id;
         let task = req.body;
