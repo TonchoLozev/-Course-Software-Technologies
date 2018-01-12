@@ -25,7 +25,6 @@ public class TaskController {
     @GetMapping("/")
     public String index(Model model) {
 
-        // TODO: Implement me...
         List<Task> openTasks = this.taskRepository.findAllByStatus("Open");
         List<Task> inProgressTasks = this.taskRepository.findAllByStatus("In Progress");
         List<Task> finishedTasks = this.taskRepository.findAllByStatus("Finished");
@@ -42,8 +41,6 @@ public class TaskController {
     @GetMapping("/create")
     public String create(Model model) {
 
-        // TODO: Implement me...
-
         model.addAttribute("task", new TaskBindingModel());
         model.addAttribute("view", "task/create");
         return "base-layout";
@@ -51,7 +48,6 @@ public class TaskController {
 
     @PostMapping("/create")
     public String createProcess(Model model, TaskBindingModel taskBindingModel, BindingResult bindingResult) {
-        // TODO: Implement me...
 
         if (bindingResult.hasErrors()) {
             model.addAttribute("task", taskBindingModel);
@@ -69,7 +65,6 @@ public class TaskController {
 
     @GetMapping("/edit/{id}")
     public String edit(Model model, @PathVariable int id) {
-        // TODO: Implement me...
 
         Task task = this.taskRepository.findOne(id);
         if (task == null) {
@@ -84,7 +79,6 @@ public class TaskController {
     @PostMapping("/edit/{id}")
     public String editProcess(@PathVariable int id, TaskBindingModel taskBindingModel, BindingResult bindingResult) {
 
-        // TODO: Implement me...
 
         Task task = this.taskRepository.findOne(id);
         if (task == null) {
