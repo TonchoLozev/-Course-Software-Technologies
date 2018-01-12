@@ -1,4 +1,5 @@
 <a href="https://softuni.bg/trainings/1714/software-technologies-october-2017">  ![SoftUni logo][logo] <a/>
+
 [logo]: http://innovationstarterbox.bg/wp-content/uploads/2016/05/Softuni_logo_trasparent.png "Logo Title Text 2"
 
 ---
