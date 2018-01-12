@@ -25,7 +25,6 @@ public class AnimeController {
 
 	@GetMapping("/")
 	public String index(Model model) {
-		//TODO: Implement me ...
 
 		List<Anime> animes =  this.animeRepository.findAll();
 		model.addAttribute("animes", animes);
@@ -35,7 +34,6 @@ public class AnimeController {
 
 	@GetMapping("/create")
 	public String create(Model model) {
-		//TODO: Implement me ...
 
 			model.addAttribute("anime", new AnimeBindingModel());
 			model.addAttribute("view", "anime/create");
@@ -44,7 +42,6 @@ public class AnimeController {
 
 	@PostMapping("/create")
 	public String createProcess(Model model, AnimeBindingModel animeBindingModel, BindingResult bindingResult) {
-		//TODO: Implement me ...
 
 		if (bindingResult.hasErrors()) {
 			model.addAttribute("anime", animeBindingModel);
@@ -64,7 +61,6 @@ public class AnimeController {
 
 	@GetMapping("/delete/{id}")
 	public String delete(Model model, @PathVariable int id) {
-		//TODO: Implement me ...
 
 		Anime anime = this.animeRepository.findOne(id);
 		if (anime == null) {
@@ -78,7 +74,6 @@ public class AnimeController {
 
 	@PostMapping("/delete/{id}")
 	public String deleteProcess(Model model, @PathVariable int id, AnimeBindingModel animeBindingModel) {
-		//TODO: Implement me ...
 
 		Anime anime = this.animeRepository.findOne(id);
 		if (anime == null) {
