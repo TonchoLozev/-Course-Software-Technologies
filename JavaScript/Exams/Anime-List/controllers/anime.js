@@ -2,7 +2,6 @@ const Anime = require('../models/Anime');
 
 module.exports = {
 	index: (req, res) => {
-        //TODO: Implement me ...
 
 
         Anime.find().then(animes => {
@@ -12,12 +11,10 @@ module.exports = {
         });
 	},
 	createGet: (req, res) => {
-        //TODO: Implement me ...
 
         res.render('anime/create');
 	},
 	createPost: (req, res) => {
-        //TODO: Implement me ...
 
         let anime = req.body;
         Anime.create(anime).then(anime => {
@@ -28,7 +25,6 @@ module.exports = {
         });
 	},
 	deleteGet: (req, res) => {
-        //TODO: Implement me ...
 
         let id = req.params.id;
         Anime.findById(id).then(anime => {
@@ -41,7 +37,6 @@ module.exports = {
         }).catch(err => res.redirect('/'));
 	},
 	deletePost: (req, res) => {
-        //TODO: Implement me ...
 
         let id = req.params.id;
         Anime.findByIdAndRemove(id).then(data => {
