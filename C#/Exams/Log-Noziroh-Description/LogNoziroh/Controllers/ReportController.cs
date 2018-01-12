@@ -15,7 +15,6 @@
         [Route("")]
         public ActionResult Index()
         {
-            //TODO: Implement me ...
 
             var reports = db.Reports.ToList();
             return View(reports);
@@ -25,7 +24,6 @@
         [Route("details/{id}")]
         public ActionResult Details(int id)
         {
-            //TODO: Implement me ...
 
             var report = db.Reports.Find(id);
             if (report == null)
@@ -40,7 +38,6 @@
         [Route("create")]
         public ActionResult Create()
         {
-            //TODO: Implement me ...
 
             return View(new Report());
         }
@@ -50,7 +47,6 @@
         [ValidateAntiForgeryToken]
         public ActionResult Create(Report report)
         {
-            //TODO: Implement me ...
 
             if (this.ModelState.IsValid)
             {
@@ -66,7 +62,6 @@
         [Route("delete/{id}")]
         public ActionResult Delete(int id)
         {
-            //TODO: Implement me ...
 
             var report = db.Reports.Find(id);
             if (report == null)
@@ -82,7 +77,6 @@
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirm(int id, Report reportModel)
         {
-            //TODO: Implement me ...
 
             var reportFromDb = db.Reports.Find(id);
             if (reportFromDb == null)
