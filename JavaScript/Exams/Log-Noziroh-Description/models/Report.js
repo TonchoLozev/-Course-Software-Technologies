@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 let reportSchema = mongoose.Schema({
-    //TODO: Implement me ...
     status: {type: 'string', required: 'true'},
     message: {type: 'string', required: 'true'},
     origin: {type: 'string', required: 'true'},
