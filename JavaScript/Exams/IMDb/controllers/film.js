@@ -7,11 +7,9 @@ module.exports = {
         });
     },
     createGet: (req, res) => {
-        //TODO: Implement me ...
         res.render('film/create');
     },
     createPost: (req, res) => {
-        //TODO: Implement me ...
         let film = req.body;
         Film.create(film).then(film => {
             res.redirect('/');
