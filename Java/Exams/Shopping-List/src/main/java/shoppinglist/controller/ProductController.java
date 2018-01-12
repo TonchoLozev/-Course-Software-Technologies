@@ -25,7 +25,6 @@ public class ProductController {
 
 	@GetMapping("/")
 	public String index(Model model) {
-		//TODO: Implement me ...
 
         List<Product> products =  this.productRepository.findAll();
         model.addAttribute("products", products);
@@ -35,7 +34,6 @@ public class ProductController {
 
 	@GetMapping("/create")
 	public String create(Model model) {
-		//TODO: Implement me ...
 
         model.addAttribute("product", new ProductBindingModel());
         model.addAttribute("view", "product/create");
@@ -44,7 +42,6 @@ public class ProductController {
 
 	@PostMapping("/create")
 	public String createProcess(Model model, ProductBindingModel productBindingModel, BindingResult bindingResult) {
-		//TODO: Implement me ...
 
         if (bindingResult.hasErrors()) {
             model.addAttribute("product", productBindingModel);
@@ -64,7 +61,6 @@ public class ProductController {
 
 	@GetMapping("/edit/{id}")
 	public String edit(Model model, @PathVariable int id) {
-		//TODO: Implement me ...
 
         Product product = this.productRepository.findOne(id);
         if (product == null) {
@@ -78,7 +74,6 @@ public class ProductController {
 
 	@PostMapping("/edit/{id}")
 	public String editProcess(Model model, @PathVariable int id, ProductBindingModel productBindingModel, BindingResult bindingResult) {
-		//TODO: Implement me ...
 
         if (bindingResult.hasErrors()) {
             model.addAttribute("product", productBindingModel);
