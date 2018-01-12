@@ -5,7 +5,6 @@ namespace ShoppingList.Models
 {
     public class Product
     {
-        //TODO: Implement me ...
 
         [Key]
         public int Id { get; set; }
